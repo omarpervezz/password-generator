@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background: rgb(56, 55, 55) !important;
+}
+
+.passwordWrapper {
+    width: 51%;
+    text-align: center;
+    padding: 31px;
+    background-color: rgba(1, 137, 159, 0.76);
+    border-radius: 10px;
+    box-shadow: rgba(18, 17, 17, 0.85) -6px 5px 9px;
+    max-width: 100%;
+}
+
+.passwordWrapper h2 {
+    font-size: 25px;
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.passwordWrapper input {
+    margin-bottom: 20px;
+    border: 1px solid green;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.passwordWrapper button {
+    margin: 4px 9px;
+    width: 90px;
+    max-width: 100%;
+    border-radius: 20px;
+}
